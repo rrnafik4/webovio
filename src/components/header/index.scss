@@ -1,0 +1,33 @@
+body {
+  height: 100%;
+  line-height: 1;
+  font-size: 16px;
+  color: rgb(77, 83, 60);
+  font-family: Poppins;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+._container {
+  max-width: 1111px;
+  margin: 0px auto;
+}
+.header {
+  width: 100%;
+  z-index: 50;
+  background-color: aqua;
+}
+
+.header-container {
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 43px;
+}
+.header-logo {
+  max-width: 258px;
+  max-height: 40px;
+}
