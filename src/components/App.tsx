@@ -1,10 +1,11 @@
 import React from "react";
 import "./index.scss";
-import { Button } from "@mui/material";
+import { Header } from "./header/header";
+
 function App() {
   return (
-    <div className="bg-[red]">
-      <Button variant="contained">ss</Button>
+    <div className="wrapper">
+      <Header />
     </div>
   );
 }
