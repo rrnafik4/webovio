@@ -1,3 +1,83 @@
-.App {
-  color: red;
+body {
+  height: 100%;
+  line-height: 1;
+  font-size: 16px;
+  color: rgb(77, 83, 60);
+  font-family: Poppins;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+._container {
+  max-width: 1161px;
+  margin: 0px auto;
+}
+
+._ibg {
+  position: relative;
+}
+._ibg img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+/////////////////////////
+.container-png {
+  width: 100%;
+  height: 100%;
+}
+.container-test {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  margin-top: -100px;
+}
+@media (max-width: 1024px) {
+  .container-test {
+    margin-top: -75px;
+  }
+}
+@media (max-width: 430px) {
+  .container-test {
+    margin-top: -33px;
+  }
+}
+.create-line {
+  width: 900px;
+  border-top: 1px solid #d4d6d4;
+}
+.container-amazing-togetner {
+  position: relative;
+}
+.amazing-togetner {
+  position: absolute;
+  width: 100%;
+  max-width: 1275px;
+  height: 362px;
+  box-shadow: 50px 130px 100px 0px rgba(0, 0, 0, 0.15);
+  background: rgb(250, 250, 250);
+  z-index: 10;
+  margin-top: -181px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+}
+.text-amazing {
+  width: 100%;
+  max-width: 822px;
+  padding-left: 164px;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 74px;
+}
+.text-started {
+  padding-left: 164px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 0px;
 }

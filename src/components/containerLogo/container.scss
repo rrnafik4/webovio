@@ -1,0 +1,41 @@
+.container-log-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  position: absolute;
+
+  width: 100%;
+  max-width: 1276px;
+
+  height: 227px;
+  align-items: center;
+  margin-left: 20px;
+  box-shadow: 50px 50px 100px 0px rgba(0, 0, 0, 0.15);
+}
+@media (max-width: 1204px) {
+  .container-log-header {
+    width: 90%;
+    height: 150px;
+  }
+}
+
+@media (max-width: 430px) {
+  .container-log-header {
+    width: 95%;
+    height: 65px;
+  }
+}
+
+.log {
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 156px;
+  max-height: 113px;
+}
+@media (max-width: 430px) {
+  .log {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
