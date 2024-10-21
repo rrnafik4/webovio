@@ -1,0 +1,37 @@
+.container-info-product {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.text-deation {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46px;
+  width: 100%;
+  max-width: 607px;
+  height: 92px;
+  margin-bottom: 60px;
+}
+.container-text-product {
+  width: 100%;
+  max-width: 255px;
+  height: 309px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.title-product {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34px;
+}
+.info-product {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.link-product {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 0px;
+}
