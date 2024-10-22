@@ -4,7 +4,6 @@
   align-items: end;
   padding-top: 360px;
   height: 88px;
-  gap: 128px;
 }
 .container-content-footer {
   display: flex;
@@ -15,6 +14,8 @@
   position: relative;
   display: flex;
   gap: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .container-mail {
   display: flex;
