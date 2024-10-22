@@ -58,7 +58,7 @@ function App() {
       <Strategy />
       <div className="create-line _container"></div>
       <Content />
-      <div className="container-amazing-togetner">
+      <div className="container-amazing-togetner mr-[20px]">
         <div className="amazing-togetner">
           <div className="text-amazing">
             Let’s make something amazing together.

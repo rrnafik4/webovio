@@ -9,7 +9,7 @@ export const Footer: React.FC<{ headerData: PropsHeaderData[] }> = ({
     <div className="container-png _ibg">
       <img src={footer} alt="footer" />
       <div className="container-content-footer _container">
-        <div className="container-contact ">
+        <div className="container-contact  mr-[20px] ml-[20px]">
           <div className="phon-address">
             <div className="text-[#ABB58E]">Phone</div>
             <div className="text-[#FCFCFC]">+32 50 31 28 32</div>
@@ -39,7 +39,7 @@ export const Footer: React.FC<{ headerData: PropsHeaderData[] }> = ({
             <div className="mail">info.webovio@gmail.com</div>
           </div>
         </div>
-        <div className="container-logo-rights">
+        <div className="container-logo-rights mr-[20px] ml-[20px]">
           <div className="header-logo">
             <img src={Logo} alt="logo" />
           </div>
